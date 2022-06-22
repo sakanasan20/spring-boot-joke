@@ -10,7 +10,7 @@ public class JokeServiceImpl implements JokeService {
 	private final ChuckNorrisQuotes chuckNorrisQuotes;
 
 	public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
-		this.chuckNorrisQuotes = chuckNorrisQuotes;
+		this.chuckNorrisQuotes = new ChuckNorrisQuotes();
 	}
 
 	@Override
